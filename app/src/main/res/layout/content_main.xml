@@ -15,7 +15,6 @@
         android:layout_marginEnd="80dp"
         android:layout_marginStart="86dp"
         android:layout_marginTop="538dp"
-        app:layout_constraintBottom_toTopOf="@+id/adView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -48,31 +47,10 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
-        android:layout_width="349dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="31dp"
-        android:layout_marginStart="31dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ratingBar" />
-
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView2"
-        android:layout_width="355dp"
-        android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="237dp" />
-
     <EditText
         android:id="@+id/editText"
         android:layout_width="410dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="83dp"
         android:layout_marginEnd="1dp"
         android:layout_marginTop="92dp"
         android:ems="10"
@@ -81,17 +59,8 @@
         android:text="RATE THIS APP"
         android:textAlignment="center"
         android:textSize="30sp"
-        app:layout_constraintBottom_toTopOf="@+id/adView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <SeekBar
-        android:id="@+id/seekBar"
-        android:layout_width="349dp"
-        android:layout_height="wrap_content"
-        android:visibility="visible"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="186dp" />
 
 </android.support.constraint.ConstraintLayout>
